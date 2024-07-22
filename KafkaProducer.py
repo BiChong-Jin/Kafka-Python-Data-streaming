@@ -4,7 +4,7 @@ from time import sleep
 from json import dumps
 import json
 
-producer = KafkaProducer(bootstrap_servers=['34.224.39.87:9092'], 
+producer = KafkaProducer(bootstrap_servers=['ip address'], 
                          value_serializer=lambda x: 
                          dumps(x).encode('utf-8'))
 
