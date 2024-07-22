@@ -7,7 +7,7 @@ from s3fs import S3FileSystem
 
 consumer = KafkaConsumer(
     "KafkaTest",
-    bootstrap_servers = ["34.224.39.87:9092"],
+    bootstrap_servers = ["ip address"],
     value_deserializer = lambda x: loads(x.decode("utf-8"))
 )
 
