@@ -3,7 +3,7 @@
 
 ## About This Project
 
-A real-time stock data streaming project built using Pyrhon, kafka and AWS.
+A real-time stock data streaming project built using Python, kafka and AWS.
 
 
 ![名称未設定ファイル drawio (2)](https://github.com/user-attachments/assets/bd033244-8a0e-4df2-b636-385cdf55f638)
